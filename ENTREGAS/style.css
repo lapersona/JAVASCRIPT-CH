@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 2px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(133, 131, 131);
+}
+.titulos {
+    color: rgb(32, 32, 32);
+    text-align: center;
+}
+.iniciarApp {
+    display: flex;
+    justify-content: space-evenly;
+}
+.listaClases{
+    display: flex;
+    justify-content: space-evenly;
+}
+.listaClases li {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.listaClases li a{
+    color: rgb(5, 49, 49);
+    font-size: large;
+}
+.listaClases li a:hover{
+    color: rgb(1, 206, 28);
+    background-color: black;
+    border-radius: 3px;
+}
+.preentrega {
+    display: flex;
+    justify-content: center;
+}
+.preentrega li {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.preentrega li a{
+    color: rgb(5, 49, 49);
+    font-size: large;
+}
+.preentrega li a:hover{
+    color: rgb(206, 25, 1);
+    background-color: black;
+    border-radius: 3px;
+}
+.entregaFinal {
+    display: flex;
+    justify-content: center;
+}
+.entregaFinal li {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.entregaFinal li a{
+    color: rgb(5, 49, 49);
+    font-size: large;
+}
+.entregaFinal li a:hover{
+    color: rgb(206, 25, 1);
+    background-color: black;
+    border-radius: 3px;
+}
+
