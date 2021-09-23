@@ -9,12 +9,12 @@ function funcion() {
             console.log("El nombre del usuario es:" + nombreUsuario);
             console.log("VOTO POR A");
             totalA = totalA + 1;
-            console.log(totalA)
+            console.log(totalA);
         } else if (votoUsuario == "b") {
             console.log("El nombre del usuario es:" + nombreUsuario);
             console.log("VOTO POR B");
             totalB = totalB + 1;
-            console.log(totalB)
+            console.log(totalB);
         }
     }
     console.log("El partido A tiene un total de " + totalA + " votos.");
